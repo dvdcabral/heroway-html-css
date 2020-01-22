@@ -1,5 +1,10 @@
 @import url('./header.css');
 @import url('./banner.css');
+@import url('./portfolio.css');
+@import url('./about.css');
+@import url('./contactme.css');
+@import url('./maisinf.css');
+@import url('./footer.css');
 
 * {
     box-sizing: border-box;

@@ -1,0 +1,24 @@
+.about {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(212, 10, 68);
+    color: #ffffff;
+    padding: 70px;
+}
+
+#about-titulo {
+    text-align: center;
+}
+
+#container-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-about-text{
+    display: inline-flex;
+    width: 300px;
+    margin: 10px;
+    align-self: flex-start;
+}
