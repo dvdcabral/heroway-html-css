@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.div-header {
+    width: 100%;
+    background-color: purple;
+    position: fixed;
+    z-index: 1;
+    text-align: right;
+    height: 30px;
+    padding-top: 12px;
+}
+.div-titulo {
+    position: relative;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 60px;
+}
+.div-img {
+    position: relative;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+}
+.div-informacoes {
+    width: 100%;
+	height: 30px;
+    background-color: purple;
+    text-align: center;
+    padding-top: 12px;
+}
+.span-menu {
+	border-left: 6px solid red;
+	background-color: gray;
+    padding: 5px;
+    margin: 5px;
+}
+h1 {
+	font: capitalize;
+	font-size: 15pt;
+	color: purple;
+}
+h2 {
+	font: capitalize;
+	font-size: 12pt;
+	color: purple;
+}a {
+    color: #fff;
+	text-decoration: none;
+}
+img {
+    width: 550px;
+}

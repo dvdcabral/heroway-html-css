@@ -1,0 +1,9 @@
+@import url('./header.css');
+@import url('./banner.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
