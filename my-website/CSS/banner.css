@@ -6,9 +6,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
 }
 
 .avatar-img{
     width: 150px;
     height: 150px;
 }
+

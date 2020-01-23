@@ -19,5 +19,9 @@
 
 .main-header a {
     color: white;
+    text-decoration: none;
+    border: rgb(212, 10, 68) solid 1px;
+    padding: 15px;
+    border-radius: 10px;
 }
 

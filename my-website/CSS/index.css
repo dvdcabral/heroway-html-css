@@ -12,3 +12,24 @@
     padding: 0px;
 }
 
+.container-traco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.traco-B {
+    display: inline-flex;
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 5px;
+}
+
+.traco-P {
+    display: inline-flex;
+    width: 50px;
+    height: 2px;
+    background-color: #000000;
+    margin: 5px;
+}

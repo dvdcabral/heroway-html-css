@@ -4,7 +4,31 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-between;
-    padding: 20px 10%;
+    justify-content: space-around;
+    padding: 30px 60px;
 
+}
+
+.text-mais-inf {
+    font-size: 9pt;
+    text-align: center;
+}
+
+.bloco-mais-inf {
+    width: 250px;
+    text-align: center;
+}
+
+#button-social {
+    align-self: baseline;
+    border: #ffffff solid 1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: #ffffff;
+    font-size: 14pt;
+    padding: 7px 15px;
+}
+
+h6 {
+    margin-bottom: 15px;
+    text-align: center;
 }

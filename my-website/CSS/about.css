@@ -3,7 +3,7 @@
     height: 300px;
     background-color: rgb(212, 10, 68);
     color: #ffffff;
-    padding: 70px;
+    padding: 60px;
 }
 
 #about-titulo {
@@ -21,4 +21,13 @@
     width: 300px;
     margin: 10px;
     align-self: flex-start;
+}
+
+#button-about {
+    border: #ffffff solid 1px;
+    background-color: rgb(212, 10, 68);
+    border-radius: 0.5em;
+    color: #ffffff;
+    font-size: 8pt;
+    padding: 10px;
 }

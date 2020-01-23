@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -24,11 +25,21 @@
     <section class="banner">
         <img class="avatar-img" src="./assets/avataaars.svg" alt="avatar">
         <h1>My Website</h1>
+        <div class=container-traco>
+            <div class="traco-B"></div>
+            <span><i class="fa fa-star"></i></span>
+            <div class="traco-B"></div>
+        </div>
     </section>
 
     <!-- PORTIFOLIO SECTION -->
     <section class="portfolio">
         <h1>Portfolio</h1>
+        <div class=container-traco>
+            <div class="traco-P"></div>
+            <span><i class="fa fa-star"></i></span>
+            <div class="traco-P"></div>
+        </div>
         <div id="container-portfolio">
             <div>
                 <img id="imagem-portifolio" src="./assets/cabin.png" alt="cabin">
@@ -47,6 +58,11 @@
     <section class="about">
         <div id="about-titulo">
             <H1>About</H1>
+            <div class=container-traco>
+                <div class="traco-B"></div>
+                <span><i class="fa fa-star"></i></span>
+                <div class="traco-B"></div>
+            </div>
         </div>
         <div id="container-about">
             <span id="container-about-text">
@@ -63,7 +79,10 @@
             </span>
         </div>
         <div id="about-titulo">
-            <input type="button" value="Download free!">
+            <button id="button-about">
+                <i class="fa fa-download"></i>
+                Download free!
+            </button>
         </div>
     </section>
 
@@ -71,37 +90,73 @@
     <section class="contactme">
         <div id="titulo-contactme">
             <h1>Contact me</h1>
+            <div class=container-traco>
+                <div class="traco-P"></div>
+                <span><i class="fa fa-star"></i></span>
+                <div class="traco-P"></div>
+            </div>
+
         </div>
         <div id=container-contactme>
-            <div>
-                <span id="nome">Nome: </span><input type="text">
+            <div id="formulario">
+                <span id="nome">Nome: </span>
             </div>
-            <div>
-                <span id="email">Email Address: </span><input type="text">
+            <div id="formulario">
+                <input type="text">
             </div>
-            <div>
-                <span id="phone">phone Number: </span><input type="text">
+            <div id="formulario">
+                <span id="email">Email Address: </span>
             </div>
-            <div>
-                <span id="Message">Message: </span><input type="text">
+            <div id="formulario">
+                <input type="text">
             </div>
-            <div>
-                <input type="button" value="Enviar">
+            <div id="formulario">
+                <span id="phone">phone Number: </span>
             </div>
+            <div id="formulario">
+                <input type="text">
+            </div>
+            <div id="formulario">
+                <span id="Message">Message: </span>
+            </div>
+            <div id="formulario">
+                <textarea name="message" id="message" cols="16" rows="5"></textarea>
+            </div>
+            <div id="form-button">
+                <button id="form-button">Send</button>
+            </div>
+        </div>
         </div>
     </section>
 
     <!-- +INF SECTION -->
     <section class="mais-inf">
-        <div>
-            teste
+        <div class="bloco-mais-inf">
+            <h6>LOCATION</h6>
+            <p class="text-mais-inf">2215 john Daniel Drive</p>
+            <p class="text-mais-inf">Clark, MO 65243</p>
+        </div>
+
+        <div class="bloco-mais-inf">
+            <h6>AROUND THE WEB</h6>
+            <button id="button-social"><i class="fa fa-facebook"></i></button>
+            <button id="button-social"><i class="fa fa-twitter"></i></button>
+            <button id="button-social"><i class="fa fa-linkedin"></i></button>
+            <button id="button-social"><i class="fa fa-dribbble"></i></button>
+        </div>
+
+        <div class="bloco-mais-inf">
+            <h6>ABOUT <i>FREELANCER</i></h6>
+            <p class="text-mais-inf">Freelance is a free to use, MIT Licensed</p>
+            <p class="text-mais-inf">Bootstrep theme created by</p>
+            <p class="text-mais-inf"><a href="#">My Website</a></p>
         </div>
     </section>
 
     <!-- FOOTER SECTION -->
     <section class="footer">
         <div>
-            teste
+            Copyright©YorWebsite2020
         </div>
 
     </section>
