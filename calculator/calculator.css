@@ -5,32 +5,54 @@ body {
 	width: 100%;
 }
 
-.container {
+.container-calc {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	margin: 30px 0 30px 0;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
 	text-align: center;
+	width: 20%;
+	margin: 2em;
+}
+
+.visor {
+	align-self: center;
 	width: 100%;
+}
+
+.line {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
 }
 
 button {
 	background-color: #67d07c;
 	border: 0;
-	font: normal normal bold 1.2em "Lucida Sans Unicode";
-	height: 50px;
-	width: 15%;
+	font: normal normal bold 0.6em "Lucida Sans Unicode";
+	padding: 0 0em;
+	margin: 0.2em;
+	width: 3em;
+}
+
+#button-0 {
+	width: 64%;
+}
+
+#button-equal {
+	height: 100%;
 }
 
 input {
+	width: 100%;
 	border: 2px solid #3bbf55;
-	font: normal normal bold 1.2em "Lucida Sans Unicode";
-	text-align: center;
-	width: 20%;
-}
-
-p, h1 {
-	width: 90%;
+	font: normal normal bold 1em "Lucida Sans Unicode";
+	text-align: right;
 }
 
 button:hover {

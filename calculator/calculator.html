@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="wclassth=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>Calculator (JS)</title>
@@ -13,8 +13,8 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1>Basic calculator</h1>
+  <!-- <div class="container">
+     <h1>Basic calculator</h1> 
 
     <input id="entrada-1" />
     <button id="btn-clear">Clear</button>
@@ -28,28 +28,51 @@
     <button id="btn-divisao">/</button>
 
     <p id="resultado"></p>
+  </div> -->
+
+  <!-- Nova calculadora -->
+
+  <div class="container-calc">
+    <div class="visor">
+      <input type="text" name="visor" id="input">
+    </div>
+    <div class="line">
+      <button id="button-clear">C</button>
+      <button id="button-backspace">&lt</button>
+      <button id="button-multiplicacao">X</button>
+      <button id="button-divisao">/</button>
+    </div>
+    <div class="line">
+      <button class="button" id="button-7">7</button>
+      <button class="button" id="button-8">8</button>
+      <button class="button" id="button-9">9</button>
+      <button id="button-subtracao">-</button>
+    </div>
+    <div class="line">
+      <button class="button" id="button-4">4</button>
+      <button class="button" id="button-5">5</button>
+      <button class="button" id="button-6">6</button>
+      <button id="button-soma">+</button>
+    </div>
+    <div class="line">
+      <div class="column">
+        <div class="line">
+          <button class="button" id="button-1">1</button>
+          <button class="button" id="button-2">2</button>
+          <button class="button" id="button-3">3</button>
+        </div>
+        <div class="line">
+          <button class="button" id="button-0">0</button>
+          <button class="button" id="button-point">.</button>
+          </div>
+        </div>
+      <div class="column">
+        <button id="button-equal">=</button>
+      </div>
+    </div>
+
   </div>
-  <div class="container">
-    <div class="visor"></div>
-    <div class="line-btn">
-      <button>C</button>
-      <button><</button>
-      <button>/</button>
-      <button>X</button>
-    </div>
-    <div class="line-btn">
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>-</button>
-    </div>
-    <div class="line-btn">
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>+</button>
-    </div>
-  </div>
+
 </body>
 
 </html>
