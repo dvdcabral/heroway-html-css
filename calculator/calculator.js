@@ -46,13 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const equal = () => {
     if (entrada.value !== '') {
       if (entrada.value !== '.') {
-        let expressao = '';
         numbers.push(Number(entrada.value));
-        numbers.map((item) => {
-          return (expressao = expressao + item);
-        });
-        result = eval(expressao.replace(/,/g, ''));
-        entrada.value = result;
+        result = numbers.join('');
+        entrada.value = eval(result);
         numbers = [];
         rFLG = 1;
       }
